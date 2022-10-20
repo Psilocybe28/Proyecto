@@ -5,7 +5,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ 
 }
 .logolink{
     display: flex;
@@ -23,14 +24,14 @@
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     text-decoration: none;
-    padding-right: 20px;
+    gap: 40px;
 }
 .boton1{
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     align-items: flex-end;
     text-decoration: none;
-    border-radius: 2px; 
+    gap: 20px; 
 
 }
 .boton2{
@@ -50,7 +51,10 @@
     display: grid;
     flex-direction: column;
     text-align: center;
+    font-family: monospace;
+    text-decoration: none;
 }
+
 .container3{
     color: aliceblue;
     background-color: crimson;
@@ -62,5 +66,16 @@
     color: aliceblue;
     background-color: crimson;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
 }
+.alebrije1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.container5{
+    color: aliceblue;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
