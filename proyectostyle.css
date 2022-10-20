@@ -1,0 +1,66 @@
+.container{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logolink{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.botones{
+    display: flex;
+    gap: 20px;
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.links{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-right: 20px;
+}
+.boton1{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    align-items: flex-end;
+    text-decoration: none;
+    border-radius: 2px; 
+
+}
+.boton2{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    align-items: flex-end;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 15px;
+}
+.logo{
+    width: 10%;
+}
+.container2{
+    color: aliceblue;
+    background-color: rgb(5, 77, 11);
+    display: grid;
+    flex-direction: column;
+    text-align: center;
+}
+.container3{
+    color: aliceblue;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container4{
+    color: aliceblue;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+}
